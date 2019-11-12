@@ -11,8 +11,8 @@ const client = new KeenAnalysis({
 // You an replace this timeframe with other relative timeframes
 // Examples: 'this_6_months', 'previous_6_weeks', or 'this_7_days'
 // See the Keen API docs for more relative timeframes: https://keen.io/docs/api/#relative-timeframes
-const timeframe = 'this_14_days';
-const timezone = 'UTC'; // https://keen.io/docs/api/#timezone
+const timeframe = 'this_30_days';
+const timezone = 'UTC+2'; // https://keen.io/docs/api/#timezone
 
 const chartColors = [
   '#5E77FF',

@@ -1206,7 +1206,7 @@ client
         }
       });
     });
-
+ 
     client
     .query({
       event_collection: 'clicks',
